@@ -48,7 +48,6 @@ export const getCommandNames = (): string[] => {
 
 export function motdText(): string {
   return `
-    Welcome to 0l1v3rr.github.io!<br>
 
     <br>&nbsp;* GitHub: 
     <a class="terminal-link" href="https://github.com/parnojaaxel" target="_blank" rel="noreferrer">
