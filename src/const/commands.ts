@@ -11,7 +11,7 @@ commands.set("date", new Date().toLocaleString());
 commands.set("projects", projectsText());
 commands.set("kali", kaliLogo());
 commands.set("github", openLink("https://github.com/parnojaaxel"));
-commands.set("repo", openLink("https://github.com/parnojaaxel"));
+commands.set("repo", openLink("https://github.com/parnojaaxel/kaliportfolio"));
 commands.set("email", openLink("mailto:parnoja.axel@gmail.com"));
 commands.set(
   "socials",
@@ -27,7 +27,7 @@ export const getCommandByName = (name: string): string => {
       window.open("https://github.com/parnojaaxel", "_blank");
       break;
     case "repo":
-      window.open("https://github.com/parnojaaxel/", "_blank");
+      window.open("https://github.com/parnojaaxel/kaliportfolio", "_blank");
       break;
     case "email":
       window.open("mailto:parnoja.axel@gmail.com", "_blank");
@@ -55,8 +55,8 @@ export function motdText(): string {
     </a>
 
     <br>&nbsp;* Repo: 
-    <a class="terminal-link" href="https://github.com/parnojaaxel" target="_blank" rel="noreferrer">
-      https://github.com/parnojaaxel
+    <a class="terminal-link" href="https://github.com/parnojaaxel/kaliportfolio" target="_blank" rel="noreferrer">
+    https://github.com/parnojaaxel/kaliportfolio
     </a>
 
     <br>
