@@ -7,12 +7,12 @@ interface Project {
 export const projects: Project[] = [
   {
     name: "Remake of Twitter",
-    link: "https://github.com/parnojaaxel",
+    link: "https://github.com/conjurs",
     category: "fullstack",
   },
   {
     name: "PHP Book API",
-    link: "https://github.com/parnojaaxel/bookapi",
+    link: "https://github.com/conjurs/bookapi",
     category: "other",
   }
 ];

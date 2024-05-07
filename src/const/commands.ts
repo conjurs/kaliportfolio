@@ -10,9 +10,9 @@ commands.set("about", aboutText());
 commands.set("date", new Date().toLocaleString());
 commands.set("projects", projectsText());
 commands.set("kali", kaliLogo());
-commands.set("github", openLink("https://github.com/parnojaaxel"));
-commands.set("repo", openLink("https://github.com/parnojaaxel/kaliportfolio"));
-commands.set("email", openLink("mailto:parnoja.axel@gmail.com"));
+commands.set("github", openLink("https://github.com/conjurs"));
+commands.set("repo", openLink("https://github.com/conjurs/kaliportfolio"));
+commands.set("email", openLink("mailto:conjurs@proton.me"));
 commands.set(
   "socials",
   "Usage: [command]<br><br>github, email"
@@ -24,13 +24,13 @@ export const getCommandByName = (name: string): string => {
 
   switch (name) {
     case "github":
-      window.open("https://github.com/parnojaaxel", "_blank");
+      window.open("https://github.com/conjurs", "_blank");
       break;
     case "repo":
-      window.open("https://github.com/parnojaaxel/kaliportfolio", "_blank");
+      window.open("https://github.com/conjurs/kaliportfolio", "_blank");
       break;
     case "email":
-      window.open("mailto:parnoja.axel@gmail.com", "_blank");
+      window.open("mailto:conjurs@proton.me", "_blank");
       break;
   }
 
@@ -50,14 +50,16 @@ export function motdText(): string {
   return `
 
     <br>&nbsp;* GitHub: 
-    <a class="terminal-link" href="https://github.com/parnojaaxel" target="_blank" rel="noreferrer">
-      https://github.com/parnojaaxel
+    <a class="terminal-link" href="https://github.com/conjurs" target="_blank" rel="noreferrer">
+      https://github.com/conjurs
     </a>
 
     <br>&nbsp;* Repo: 
-    <a class="terminal-link" href="https://github.com/parnojaaxel/kaliportfolio" target="_blank" rel="noreferrer">
-    https://github.com/parnojaaxel/kaliportfolio
+    <a class="terminal-link" href="https://github.com/conjurs/kaliportfolio" target="_blank" rel="noreferrer">
+    https://github.com/conjurs/kaliportfolio
     </a>
+    <br>
+    <br>&nbsp;* Please do remember this portfolio old and hasn't been updated.
 
     <br>
     <br>&nbsp;* Type 'help' to see the list of available commands.
